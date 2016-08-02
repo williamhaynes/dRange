@@ -254,7 +254,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    /*background-position: center center;*/
+    background-position: center center;
     border-top: solid white 1px;
 }
 
