@@ -1,0 +1,59 @@
+body{
+    background-color: dimgray;
+    background: dimgray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, dimgray , white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, dimgray , white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, dimgray , white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, black, white); /* Standard syntax */
+}
+
+main{
+    position: absolute;
+    top: 50px;
+    padding-bottom: 100px;
+}
+
+article{
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.aboutText{
+    font-family: "Exo 2";
+    text-align: justify;
+    border: solid black 2px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    border-radius: 0px 0px 0px 10px;
+    background-color: gainsboro;
+    min-height: 280px;
+}
+
+.profilePic{
+    height: 300px;
+    width: auto;
+    padding-right: 10px;
+    border-top: solid black 3px;
+    border-left: solid black 2px;
+}
+
+h2{
+    text-align: center;
+    line-height: 50px;
+    font-size: 180%;
+    margin-bottom: -10px;
+    border: solid black 3px;
+    background-color: #8C001A;
+    color: white;
+    border-radius: 0px 10px 0px 0px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#map{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: solid black 2px;
+    margin-top: 0px; /*move map further/closer to about section*/
+}

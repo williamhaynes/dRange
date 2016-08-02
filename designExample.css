@@ -1,0 +1,349 @@
+#body{
+    background-color: black;
+
+
+}
+
+/*~~~~~~~~~~~~~~~~~Controls to modify the TopBox ~~~~~~~~~~~~~~~~~~~~~~*/
+/*Contains
+ *Site Logo
+ *Top Navigation Bars
+ */
+
+#topBox{
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 104px;
+    width: 100%;
+    min-width: 960px;
+    border-bottom: solid white 1px;
+    border-top: solid white 1px;
+    /*Gradients*/
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* Standard syntax */
+}
+
+#navContainer{
+    position: absolute;
+    top: 0%;
+    left: 20%;
+    right: 20%;
+    width: 60%;
+    height: 104px;
+    min-width: 620px;
+    /*background-color: red;*/
+}
+
+#logoContainer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    height: 104px;
+    width: 184px;
+
+    /*background-image: url(static/logo.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
+}
+#leftNavContainer{
+    width: 184px;
+    height: 104px;
+}
+
+#rightNavContainer{
+    display: table;
+    position: absolute;
+    top: 0px;
+    left: 184px;
+    width: 80%;
+    height: 104px;
+    left:184px;
+    /*background-color: aqua;*/
+    font-family: 'Pacifico', sans-serif;
+    font-size: 150%;
+}
+
+#upperNav{
+    display: table;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 52px;
+    /*background-color: green;*/
+}
+
+/*#lowerNav{
+    display: table;
+    position: absolute;
+    top: 52px;
+    width: 100%;
+    height: 52px;
+    background-color: greenyellow;
+}*/
+
+/*Nav button controls*/
+.hLink{
+    text-align: center;
+    line-height: 104px;
+    text-decoration: none;
+    color: white;
+    display: table-cell;
+    width: 33.3333334%;  /* (100 / numItems)% */
+    min-width: 160px;
+    text-align: center;
+    white-space: nowrap;
+
+    /*Gradients*/
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* Standard syntax */
+}
+
+.hLink:hover{
+    text-shadow: 1px 1px 5px red;
+    /*background-color: lavenderblush;*/
+}
+
+
+/*~~~~~~~~~~~~~~~~~Controls to modify the middleBox ~~~~~~~~~~~~~~~~~~~~~~*/
+/*Contains
+ * Studio Background Image for site
+ */
+
+.mySlides{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    max-height: 680px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    min-width: 960px;
+
+
+
+}
+
+#middleBox{
+    position: absolute;
+    top: 93px;
+    left: 0px;
+    height: 60%;
+    max-height: 600px;
+    width: 100%;
+    padding-top: 104px;
+    background-color: transparent;
+    z-index: -1;
+    /*background-image: url(static/studio_Background2.jpg);*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    min-width: 960px;
+    /*-webkit-filter: contrast(110%);*/
+
+}
+
+#upperBox{
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    width: 100%;
+    /*height: 150px;*/
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    font-size: 200%;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px 25px red;
+}
+
+#upperText{
+    font-family: 'Exo 2';
+    position: absolute;
+    top: 13px;
+    left: 0%;
+    width: 49.5%;
+    text-align: center;
+    border: solid black 5px;
+    background-color: #1A1A1A;
+    line-height: 5px;
+    color: white;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 50%;
+}
+
+#upperText:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+#lowerText{
+    font-family: 'Exo 2';
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    width: 49.5%;
+    text-align: center;
+    border: solid black 5px;
+    background-color: #1A1A1A;
+    line-height: 5px;
+    color: white;
+    border-radius: 0px 0px 30px 30px;
+    font-size: 50%;
+}
+
+#lowerText:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+
+/*
+#lowerBox{
+    position: absolute;
+    top: 120px;
+    left: 60%;
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 25px;
+}*/
+
+/*~~~~~~~~~~~~~~~~~Controls to modify the showcaseBox ~~~~~~~~~~~~~~~~~~~~~~*/
+/*Contains
+ *
+ */
+
+#showcaseBox{
+    position: absolute;
+    bottom: 64px;
+    margin-top: 0px;
+    left: 0px;
+    width: 100%;
+    min-width: 960px;
+    border-top: solid black 10px;
+    background-color: white;
+}
+
+.panelBox{
+    width: 25%;
+    height: 100%;
+    max-height: 400px;
+    background-color: aqua;
+    float: left;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background-position: center center;*/
+    border-top: solid white 1px;
+}
+
+.panelBox p{
+    text-align: center;
+    font-size: 180%;
+    text-shadow: 1px 1px 5px red;
+}
+
+.panelBox:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#panelOne{
+    background-image: url(static/Aberdeen-band-Franklin.jpg);
+    /*-webkit-filter: contrast(110%);*/
+}
+
+#panelTwo{
+    background-image: url(static/Control+Room+Colour.jpg);
+    /*-webkit-filter: contrast(130%);*/
+}
+
+#panelThree{
+    background-image: url(static/Jonny+In+control+Room.jpg);
+    /*-webkit-filter: contrast(110%);*/
+}
+
+#panelFour{
+    background-image: url(static/Kids+party+Mic.jpg);
+    /*-webkit-filter: contrast(130%);*/
+}
+
+
+
+
+/*~~~~~~~~~~~~~~~~~Controls to modify the bottomBox ~~~~~~~~~~~~~~~~~~~~~~*/
+/*Contains
+ * Studio Address
+ * Social Feeds Icons/Links
+ */
+
+#bottomBox{
+    z-index: 3;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 52px;
+    width: 100%;
+    min-width: 960px;
+    margin-bottom: 0px;
+    border-top: solid 10px black;
+    border-bottom: solid 1px white;
+    /*Gradients*/
+    background: black; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1A1A1A, black ,black, black, #1A1A1A); /* Standard syntax */
+}
+
+#contactDetails{
+    float: left;
+    color: white;
+    padding-left: 10px;
+}
+
+#socialFeeds{
+    padding-right: 10px;
+}
+
+.sLink{
+    height: 42px;
+    width: 42px;
+    padding-left: 5px;
+    padding-top: 5px;
+    float: right;
+}
+
+
+/*~~~~~~~~~~~~~~~~~Override Controls for whole page ~~~~~~~~~~~~~~~~~~~~~~*/
+/*Contains
+ *
+ */
+p {
+    font-family: 'Pacifico', sans-serif;
+}
+
+#address{
+    font-family: 'Exo 2';
+}
